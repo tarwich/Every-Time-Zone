@@ -7,8 +7,8 @@ body {
   background: #111414;
 }
 
-html { 
-  height: 100%; 
+html {
+  height: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -61,7 +61,7 @@ div#footer div.image {
   margin: -20px 20px 0 15px;
   width: 221px;
   height: 100px;
-  background: url(pulse.png);
+  background: url(pulse.png?20151016);
   background-size: 100% 100%;
   color: transparent;
   border-radius: 4px;
@@ -185,7 +185,7 @@ body.standalone #tap_to_add {
 }
 
 body.chrome *, body.android * {
-  text-rendering: auto !important;  
+  text-rendering: auto !important;
 }
 
 #now, #cnow {
@@ -226,7 +226,7 @@ body.chrome *, body.android * {
   -moz-border-radius: 3px;
   border-radius: 3px;
   background: #3fba07;
-  background-image: 
+  background-image:
     -webkit-gradient(linear, left top, left bottom, color-stop(0.0, rgba(63,186,7,0.5)), color-stop(1.0, rgba(110,216,27,0.5))),
     -webkit-gradient(linear, left top, right top, color-stop(0.0, #3fba07), color-stop(0.5, #6ed81b), color-stop(1.0, #3fba07));
 }
@@ -304,7 +304,7 @@ body.chrome *, body.android * {
   top: 15px;
   right: 20px;
   font-size: 0.8em;
-  line-height: 1.5em; 
+  line-height: 1.5em;
 }
 
 body.supports-touch #select_timezones  {
@@ -321,7 +321,7 @@ body.supports-touch #shortcut_link {
 }
 
 .twitter-share-button {
-  position: absolute;
+  position: absolute !important;
   left: 450px;
   top: 19px;
 }
@@ -331,9 +331,9 @@ body.supports-touch #shortcut_link {
     font-size: 1em;
     width: 300px;
     line-height: 2.25em;
-  }  
-  h2 { 
-    display: none; 
+  }
+  h2 {
+    display: none;
   }
   h3 {
     font-size: 0.7em;
@@ -362,7 +362,7 @@ body.supports-touch #shortcut_link {
   div#footer small {
     display: none;
   }
-  
+
   div#footer div.image {
     float: none;
     display: block;
@@ -379,5 +379,5 @@ body.supports-touch #shortcut_link {
 
   .twitter-share-button {
     display: none;
-  }  
+  }
 }
